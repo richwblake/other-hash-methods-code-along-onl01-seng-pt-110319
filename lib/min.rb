@@ -9,5 +9,5 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  groceries.each_pair { |category, food_list|  }
+  groceries.each_pair { |category, food_list| food_list.min }
 end
